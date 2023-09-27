@@ -10,6 +10,7 @@
     <h1>Bienvenue</h1>
     <form action="<%=request.getContextPath()%>/Test" method="get">
         Couleur : <input type="text" name="couleur" id="">
+        Nombre : <input type="number" name="nombre" id="">
         <button type="submit">ok</button>
     </form>
 </body>
